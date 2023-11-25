@@ -1,0 +1,41 @@
+body{
+    background-image: url("https://img.freepik.com/premium-vector/abstract-hand-wireframe-digital-technology_36402-144.jpg?w=2000");
+    background-repeat: no-repeat;
+    background-size: 100%,100vh;
+}
+#login{
+    height:40vh;
+    width:30%;
+    background-color: mediumslateblue;
+    line-height: 50px;
+    color:black;
+    border-radius:10%;
+    position:relative;
+    top:50vh;
+    left:5%;
+    opacity:0.4;
+}
+form{
+    position:relative;
+    left:10%;
+    top:2%;
+    font-weight:bolder;
+}
+input{
+    height: 20px;
+    width:100%;
+}
+#su{
+    height: 300px;
+    width:100%;
+    font-weight: bolder;
+}
+#re{
+    height: 30px;
+}
+::placeholder{
+    color:brown;
+    position:relative;
+    left:30%;
+    font-weight: bolder;
+}

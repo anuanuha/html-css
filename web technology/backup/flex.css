@@ -1,0 +1,59 @@
+#flex-container{
+    height:80vh;
+    width:80vw;
+    background-color:mediumvioletred;
+    position:relative;
+    left:20%;
+    display: flex;
+    /* flex-direction:row-reverse; */
+    /* flex-wrap:wrap; */
+    justify-content:center;
+    /* align-items: baseline; */
+    flex-flow:wrap row;
+align-content:space-evenly;
+}
+.flex-items{
+    /* height:10vh; */
+    width:100px;background-color: blue;
+    border:1px solid red;
+    
+}
+#item1{
+    background-color: rgb(red, green, blue);
+    /* order:8; */
+    /* flex-grow:2; */
+    flex-shrink:2;
+
+
+}
+#item2{
+    background-color: blueviolet;
+     o vccc                                                                                                    
+     flex-grow:3; 
+    flex-shrink: 1;
+}
+#item3{
+    background-color: orange;
+     order:2; 
+    /* flex-grow:4; */
+    
+}
+#item4{
+    background-color: magenta;
+     order:3;
+    align-self:flex-end;
+    
+}
+#item5{
+    background-color: orangered;
+    order:4; 
+    align-self:flex-start;
+    
+}
+#item6{
+    background-color: rgb(255, 182, 182);
+     order:6; 
+     flex-grow:3; 
+    align-self:center;
+    flex-shrink: 1;
+}

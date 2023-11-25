@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1::first-letter
+        {
+            color:red;
+            font-size: 50px;
+        }
+        h1::first-line{
+            color: blue;
+        }
+        h1::after{
+            content:"=>yes done";
+            color: pink;
+            font-size: 30px;
+        }
+        h1::selection{
+            color: red;
+            background-color: aqua;
+        }
+        li::marker{
+            color: blue;
+            font-size: 50px;
+        }
+        h2{
+            height: 30vh;
+            width: 30%;
+            background-color: aqua;
+            color: red;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 150px 200px 10px 10px;
+            padding-top: 100px;
+            border: 5px solid red;
+            margin: 200px;
+            margin-top: 600px;
+        }
+        body{
+            background-image: url("https://cdn.pixabay.com/photo/2023/06/02/14/12/woman-8035772_640.jpg"),url("https://cdn.pixabay.com/photo/2023/06/03/12/52/lantana-8037634__340.jpg");
+            background-repeat: no-repeat,no-repeat;
+            background-size: 10% 10vh,20% 20vh;
+            background-position: 200px 700px,250px 300px;
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- there six pseudo elements
+    1.first letter
+    2.first line
+    3.after
+    4.before
+    5.marker
+    6.selection -->
+
+
+    <!-- pseudo element is used to style the particular part of  html element -->
+
+    <!-- syntax of pseudo element -->
+    <!-- selector::pseudo-element{
+        property:value
+    } -->
+
+    <h1>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae doloribus corporis dolorem voluptatum consequatur, ducimus mollitia veniam voluptates quisquam quasi enim, dolores laborum iusto harum.
+    </h1>
+
+
+    <ul>
+        <li>item1</li>
+        <li>item2</li>
+        <li>item3</li>
+        <li>item4</li>
+    </ul>
+
+
+    <!-- box model -->
+    <h2>welcome</h2>
+</body>
+</html>

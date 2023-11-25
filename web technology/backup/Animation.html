@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display:flex;
+            justify-content: center;
+        }
+        article{
+            height:40vh;
+            width:40w;
+            background-image: repeating-radial-gradient(yellow 0%,yellow 3%,blue 5%,red 5%,red 5%,red 10%);
+            animation-name:box;
+            animation-duration:5s;
+            animation-timing-function:linear;
+            animation-delay:0.5s;
+            animation-iteration-count:3;
+
+            
+        }
+        @keyframes box{
+            from{
+                width:40vw;
+                border-radius:5%;
+
+            }
+            
+
+            
+            to{
+                width:100vw;
+                border-radius:5%;
+
+            }
+            0%{
+                position:relative;
+                top: 250px;
+                left:0px;
+            }
+            25%{
+                position: relative;
+                top:250px;
+                left:0px;
+            }
+            50%{
+                position:relative;
+                top: 250px;
+                left: 250px;
+
+            }
+            75%{
+                position:relative;
+                top:0px;
+                left:400px;
+            }
+            100%{
+                position:relative;
+                top:0px;
+                left: 400px;
+
+            }
+        }
+    </style>
+</head>
+<body>
+   <article>
+    
+   </article> 
+</body>
+</html>

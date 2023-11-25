@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    padding:0;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    height:3rem;
+    width:100%;
+    background-color:white;
+
+}
+#img
+{
+    height:100vh;   
+     width: 100%;
+     background-image: url("https://www.usnews.com/object/image/00000186-7a58-d975-aff7-fffbc8910000/iguazu-falls-stock.jpg?update-time=1677089883729&size=responsive640");
+background-repeat: no-repeat;
+background-size: 100% 100vh;
+
+    
+}
+    
+
+#container{
+    display: flex;
+
+}
+.box{
+    height: 250px;
+    width: 200px;
+    background-color: bisque;
+}
+li{
+    color:rgb(71,25,237);
+}
+@media(width<=375px)
+{
+    nav{
+        grid-template-columns: left;
+        height:250px;
+        position:relative;
+        font: size 30px;
+    
+    }
+    #img{
+        background-size:100% 100vh;
+        width:100%;
+
+    }
+    #container{
+        grid-template-columns: 1fr 1fr;
+    }
+    .box{
+        height: 350px;
+
+    }
+    
+    
+    
+

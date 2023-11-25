@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding:0;
+    background-color: brown;
+}
+nav ul{
+    list-style: none;
+    display:flex;
+    justify-content:space-around;
+    color:black;
+
+}
+header{
+    height: 40px;
+    width:100%;
+    background-color: blue;
+}
+#demo1{
+    position:relative;
+    left:10%;
+    top: 40px;
+}
+#demo2{
+    position:relative;
+    left:10%;
+    top: -30px;
+
+}
+#demo3{
+    position:relative;
+    left:5%;
+    top: -30px;
+}
+    
+    

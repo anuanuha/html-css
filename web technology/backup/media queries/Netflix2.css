@@ -1,0 +1,13 @@
+body{
+    background-image: url("https://media.gqmagazine.fr/photos/5f92c016100e82b0c7b0efd9/16:9/w_2560%2Cc_limit/869378032.jpg");
+
+}
+*{
+    margin:0;
+    padding:0;
+}
+
+navbar{
+    width: 1000px; 
+    height: 75px; 
+}

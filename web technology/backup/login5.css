@@ -1,0 +1,22 @@
+fieldset{
+    background-color: white;
+    font-style: oblique;
+    font-size: 15px;
+    position: relative;
+    
+    left: 600px;
+    height: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:black;
+
+}
+input{
+    background-color: white;
+    color:white;
+
+}
+img{
+    height: 100%;
+    width:100%;
+    filter: brightness();
+}

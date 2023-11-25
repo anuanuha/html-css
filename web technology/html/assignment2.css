@@ -1,0 +1,12 @@
+body{
+    color: brown;
+    font-size: smaller;
+    background-color: black;
+    font-style: italic;
+}
+*head{
+    color: blue;
+    font-size: medium;
+    background-color: blueviolet;
+    font-style: oblique;
+}

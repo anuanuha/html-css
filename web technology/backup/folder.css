@@ -1,0 +1,184 @@
+
+body{
+
+    background-image: url("https://wallpapercave.com/wp/wp4316585.jpg");
+
+    background-repeat: no-repeat;
+
+    background-size: 100% 100vh;
+
+ 
+
+}
+
+#main{
+
+    height: 50vh;
+
+    width: 50%;
+
+    background-color: white;
+
+    position: relative;
+
+    left: 2%;
+
+    border: 6px groove gray;
+
+    border-top-right-radius: 25%;
+
+    border-bottom-left-radius: 25%;
+
+    box-shadow: 10px 8px 13px black;
+
+}
+
+#section-1{
+
+    height: 50vh;
+
+    width: 55%;
+
+    background-image: url("https://wallpapercave.com/wp/wp4316561.jpg");
+
+    background-repeat: no-repeat;
+
+    border-bottom-left-radius: 38%;
+
+    background-size: 100% 50vh;
+
+}
+
+form{
+
+    position: relative;
+
+    bottom: 300px;
+
+    left: 58%;
+
+    line-height: 35px;
+
+    font-size: 17px;
+
+}
+
+input{
+
+    height: 20px;
+
+    width: 100%;
+
+    border: 2px solid rgb(63, 61, 89);
+
+    border-radius: 15%;
+
+ 
+
+}
+
+::placeholder{
+
+    position: relative;
+
+    left: 20%;
+
+    color: rgb(47,166,11);
+
+    font-family:'Times New Roman', Times, serif;
+
+    font-size:16px ;
+
+    font-weight: bolder;
+
+}
+
+label{
+
+    color: rgb(12, 12, 12);
+
+}
+
+button [type="submit"]
+
+{
+
+    position: relative;
+
+    left: 20%;
+
+    height: 30px;
+
+    width: 40%;
+
+    font-size: 10px;
+
+    font-weight: bold;
+
+    border-color: rgb(223,174, 210);
+
+    border-radius: 8%;
+
+    cursor: pointer;
+
+    border: 5px solid black;
+
+    transition: all 0.5s linear;
+
+}
+
+button[type="submit"]:hover{
+
+    transform: scale(1.2,1.2);
+
+}
+
+button[type="reset"]{
+
+    position: relative;
+
+    left: 30%;
+
+    height: 30px;
+
+    width: 40%;
+
+    font-size: 10px;
+
+    font-weight: bold;
+
+    border-color: rgb(223,173, 123);
+
+    border-radius: 11%;
+
+    cursor: pointer;
+
+    border: 3px solid black;
+
+    transition: all 0.5s linear;
+
+ 
+
+}
+
+button[type="reset"]:hover{
+
+    transform: scale(1.2,1.2);
+
+}
+
+h1{
+
+    font-size: 50px;
+
+    position: relative;
+
+    left: 20%;
+
+    color: white;
+
+}
+
+ 
+
+

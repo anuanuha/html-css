@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    padding:0;
+}
+nav{
+    display: flex;
+    height: 40px;
+    width:100%;
+    background-color:blue;
+    list-style: ;
+}
+#right-side{
+    height:10vh;
+    width:20%;
+    margin-left:40%;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    list-style: none;
+
+}
+a{
+    color:white;
+    text-decoration: none;
+    position: relative;
+}
+a::after{
+    content:"";
+    height:3px;
+    width:100%;
+    background-color: rgb(242,11,50);
+    position:absolute;
+    top:17px;
+    left:0;
+    transition:0.5s;
+}
+a:hover{
+    color:orange;
+}
+a:hover::after
+{
+    width:100%;
+}
+main{
+    height:100vh;
+    width:100%;
+    background-image: url("https://ibsintelligence.com/wp-content/uploads/2022/03/ibs_Digital-Banking.jpg");
+    background-repeat:no-repeat;
+    background-size:100% 100vh;
+}
+header{
+    position:sticky;
+    top:0;
+}
+h1{
+    text-transform:capitalize;
+    color:brown;
+    position: relative;
+    top:30%;
+    left:30%;
+
+}
